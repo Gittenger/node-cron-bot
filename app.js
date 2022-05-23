@@ -12,7 +12,7 @@ const ping = url => {
 }
 
 cron.schedule(
-	'*/10 * 9-21 * * 0-5',
+	'*/10 * 9-22 * * 0-5',
 	() => {
 		urls.forEach(url => {
 			ping(url)
