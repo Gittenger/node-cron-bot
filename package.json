@@ -1,0 +1,24 @@
+{
+	"name": "cron-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Gittenger/node-cron-bot.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Gittenger/node-cron-bot/issues"
+	},
+	"homepage": "https://github.com/Gittenger/node-cron-bot#readme",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"node-cron": "^3.0.0"
+	}
+}
